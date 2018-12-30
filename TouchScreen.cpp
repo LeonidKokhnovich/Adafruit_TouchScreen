@@ -54,6 +54,7 @@ static void insert_sort(int array[], uint8_t size) {
 #endif
 
 TSPoint TouchScreen::getPoint(void) {
+  return TSPoint(0,0,0);
   int x, y, z;
   int samples[NUMSAMPLES];
   uint8_t i, valid;
